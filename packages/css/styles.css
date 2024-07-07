@@ -423,8 +423,9 @@ img {
 
 .about__info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: var(--mb-2-5);
+  
 }
 
 .about__info-title {
@@ -435,6 +436,8 @@ img {
 
 .about__info-name {
   font-size: var(--smaller-font-size);
+  text-align: center
+
 }
 
 .about__info-title,
@@ -1209,7 +1212,7 @@ img {
       text-align: initial;
     }
     .about__info {
-      justify-content: space-between;
+      justify-content: center;
     }
     .about__buttons {
       justify-content: initial;
